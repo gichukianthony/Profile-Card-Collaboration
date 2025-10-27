@@ -7,20 +7,35 @@ This repository is designed to help a team of seven developers practice Git and 
 ---
 
 ## 📋 Table of Contents
-- [Objective](#objective)
-- [Team Roles & Assignments](#team-roles--assignments)
-- [🚀 Getting Started](#getting-started)
-- [🛠 Your Task: Customize Your Card](#your-task-customize-your-card)
-- [📤 Creating Your Pull Request](#creating-your-pull-request)
-- [📋 Collaboration Rules & Guidelines](#collaboration-rules--guidelines)
-- [🔄 Syncing with Upstream](#syncing-with-upstream)
-- [🆘 Troubleshooting Common Issues](#troubleshooting-common-issues)
-- [🎨 Creative Challenges (Optional)](#creative-challenges-optional)
-- [📊 Success Metrics](#success-metrics)
-- [🏆 What You'll Learn](#what-youll-learn)
-- [🤝 Code Review Guidelines](#code-review-guidelines)
-- [📞 Need Help?](#need-help)
-- [🚀 Quick Command Reference](#quick-command-reference)
+- [Team Profile Cards Collaboration Challenge](#team-profile-cards-collaboration-challenge)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🎯 Objective](#-objective)
+  - [👥 Team Roles \& Assignments](#-team-roles--assignments)
+  - [🚀 Getting Started](#-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Initial Setup](#initial-setup)
+  - [🛠 Your Task: Customize Your Card](#-your-task-customize-your-card)
+    - [Step 1: Create Your Feature Branch](#step-1-create-your-feature-branch)
+    - [Step 2: Customize Your HTML Content](#step-2-customize-your-html-content)
+      - [Example (User 1):](#example-user-1)
+    - [Step 3: Style Your Card](#step-3-style-your-card)
+      - [Example CSS (User 1):](#example-css-user-1)
+    - [Step 4: Test Your Changes](#step-4-test-your-changes)
+    - [Step 5: Commit Your Changes](#step-5-commit-your-changes)
+  - [📤 Creating Your Pull Request](#-creating-your-pull-request)
+  - [📋 Collaboration Rules \& Guidelines](#-collaboration-rules--guidelines)
+    - [✅ **DO:**](#-do)
+    - [❌ **DON'T:**](#-dont)
+  - [🔄 Syncing with Upstream](#-syncing-with-upstream)
+  - [🆘 Troubleshooting Common Issues](#-troubleshooting-common-issues)
+    - [Merge Conflicts](#merge-conflicts)
+    - [Branch Issues](#branch-issues)
+  - [🎨 Creative Challenges (Optional)](#-creative-challenges-optional)
+  - [📊 Success Metrics](#-success-metrics)
+  - [🏆 What You'll Learn](#-what-youll-learn)
+  - [🤝 Code Review Guidelines](#-code-review-guidelines)
+  - [📞 Need Help?](#-need-help)
+  - [🚀 Quick Command Reference](#-quick-command-reference)
 
 ---
 
@@ -32,13 +47,16 @@ Each team member will customize their own profile card on a shared team page usi
 ## 👥 Team Roles & Assignments
 | User   | Role                 | Branch Name           | Card Class |
 | ------ | -------------------- | --------------------- | ---------- |
-| User 1 | Frontend Developer   | `feature/user-1-card` | `.user-1`  |
-| User 2 | Backend Developer    | `feature/user-2-card` | `.user-2`  |
-| User 3 | UI/UX Designer       | `feature/user-3-card` | `.user-3`  |
-| User 4 | Full Stack Developer | `feature/user-4-card` | `.user-4`  |
-| User 5 | DevOps Engineer      | `feature/user-5-card` | `.user-5`  |
-| User 6 | Data Scientist       | `feature/user-6-card` | `.user-6`  |
-| User 7 | Project Manager      | `feature/user-7-card` | `.user-7`  |
+| User 1 | lucy | `feature/user-1-card` | `.user-1`  |
+| User 2 |victory mwendwa    | `feature/user-2-card` | `.user-2`  |
+| User 3 | ebigael     | `feature/user-3-card` | `.user-3`  |
+| User 4 | eric | `feature/user-4-card` | `.user-4`  |
+| User 5 | evaline     | `feature/user-5-card` | `.user-5`  |
+| User 6 | florence       | `feature/user-6-card` | `.user-6`  |
+| User 7 | joseph     | `feature/user-7-card` | `.user-7`  |
+| User 8 | sir malii    | `feature/user-8-card` | `.user-8`  |
+| User 9 | wachira victor     | `feature/user-9-card` | `.user-9`  |
+
 
 ---
 
@@ -55,12 +73,12 @@ Each team member will customize their own profile card on a shared team page usi
     - Click **Fork** to create your personal copy.
 2. **Clone your fork**
     ```sh
-    git clone https://github.com/YOUR_USERNAME/team-profile-cards.git
-    cd team-profile-cards
+    git clone url
+    cd project-name
     ```
 3. **Add upstream remote**
     ```sh
-    git remote add upstream https://github.com/ORIGINAL_OWNER/team-profile-cards.git
+    git remote add upstream original repo
     ```
 4. **Verify remotes**
     ```sh
@@ -280,10 +298,10 @@ When reviewing teammates’ PRs:
 ## 🚀 Quick Command Reference
 ```sh
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/team-profile-cards.git
+git clone url
 
 # Create new branch
-git checkout -b feature/user-X-card
+git checkout -b yourname
 
 # Check current branch
 git branch
@@ -295,7 +313,7 @@ git add .
 git commit -m "Descriptive message"
 
 # Push to your fork
-git push origin feature/user-X-card
+git push origin yourname
 
 # Get latest changes
 git pull upstream main
