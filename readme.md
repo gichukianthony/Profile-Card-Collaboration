@@ -48,7 +48,7 @@ Each team member will customize their own profile card on a shared team page usi
 | User   | Role                 | Branch Name           | Card Class |
 | ------ | -------------------- | --------------------- | ---------- |
 | User 1 | lucy | `feature/user-1-card` | `.user-1`  |
-| User 2 |victory mwendwa    | `feature/user-2-card` | `.user-2`  |
+| User 2 done |victory mwendwa    | `feature/user-2-card` | `.user-2`  |
 | User 3 | ebigael     | `feature/user-3-card` | `.user-3`  |
 | User 4 | eric | `feature/user-4-card` | `.user-4`  |
 | User 5 | evaline     | `feature/user-5-card` | `.user-5`  |
