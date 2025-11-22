@@ -11,6 +11,7 @@ This repository is designed to help a team of seven developers practice Git and 
   - [📋 Table of Contents](#-table-of-contents)
   - [🎯 Objective](#-objective)
   - [👥 Team Roles \& Assignments](#-team-roles--assignments)
+  - [📊 Progress Tracking](#-progress-tracking)
   - [🚀 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Initial Setup](#initial-setup)
@@ -57,6 +58,37 @@ Each team member will customize their own profile card on a shared team page usi
 | User 8 | sir malii    | `feature/user-8-card` | `.user-8`  |
 | User 9 | wachira victor     | `feature/user-9-card` | `.user-9`  |
 
+
+---
+
+## 📊 Progress Tracking
+
+Track the completion status of each team member's profile card customization. This section helps monitor the overall progress of the collaboration challenge.
+
+| User   | Name               | Branch                | Status         | PR Link | Last Updated |
+| ------ | ------------------ | --------------------- | -------------- | ------- | ------------ |
+| User 1 | lucy               | `feature/user-1-card` | ✅ Complete    | TBD     | TBD          |
+| User 2 | victory mwendwa    | `feature/user-2-card` | ✅ Complete    | TBD     | TBD          |
+| User 3 | ebigael            | `feature/user-3-card` | 🔄 In Progress | -       | -            |
+| User 4 | eric               | `feature/user-4-card` | 🔄 In Progress | -       | -            |
+| User 5 | evaline            | `feature/user-5-card` | 🔄 In Progress | -       | -            |
+| User 6 | florence           | `feature/user-6-card` | 🔄 In Progress | -       | -            |
+| User 7 | joseph             | `feature/user-7-card` | 🔄 In Progress | -       | -            |
+| User 8 | sir malii          | `feature/user-8-card` | 🔄 In Progress | -       | -            |
+| User 9 | wachira victor     | `feature/user-9-card` | 🔄 In Progress | -       | -            |
+
+### Status Legend:
+- ✅ **Complete** - Card customization merged to main
+- 🔄 **In Progress** - Working on customization
+- 📝 **PR Submitted** - Pull request created, awaiting review
+- ⏳ **Not Started** - Yet to begin work
+
+### How to Update This Section:
+When you submit your pull request or complete your card:
+1. Change your status from 🔄 In Progress to 📝 PR Submitted
+2. Add the link to your PR in the "PR Link" column
+3. Update the "Last Updated" field with the current date
+4. After your PR is merged, change status to ✅ Complete
 
 ---
 
