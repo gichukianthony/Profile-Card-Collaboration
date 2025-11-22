@@ -67,8 +67,8 @@ Track the completion status of each team member's profile card customization. Th
 
 | User   | Name               | Branch                | Status         | PR Link | Last Updated |
 | ------ | ------------------ | --------------------- | -------------- | ------- | ------------ |
-| User 1 | lucy               | `feature/user-1-card` | ✅ Complete    | [#PR]() | 2024-XX-XX   |
-| User 2 | victory mwendwa    | `feature/user-2-card` | ✅ Complete    | [#PR]() | 2024-XX-XX   |
+| User 1 | lucy               | `feature/user-1-card` | ✅ Complete    | TBD     | TBD          |
+| User 2 | victory mwendwa    | `feature/user-2-card` | ✅ Complete    | TBD     | TBD          |
 | User 3 | ebigael            | `feature/user-3-card` | 🔄 In Progress | -       | -            |
 | User 4 | eric               | `feature/user-4-card` | 🔄 In Progress | -       | -            |
 | User 5 | evaline            | `feature/user-5-card` | 🔄 In Progress | -       | -            |
